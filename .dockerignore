@@ -1,0 +1,12 @@
+__pycache__/
+.venv/
+.pytest_cache/
+.git/
+data/
+*.pyc
+.DS_Store
+.env
+requirements-frozen.txt
+node_modules/
+dist/
+build/

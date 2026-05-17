@@ -16,4 +16,4 @@ EXPOSE 8000
 
 USER appuser
 ENTRYPOINT ["/app/entrypoint.sh"]
-CMD ["uvicorn", "src.shl_agent.api:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1", "--timeout-keep-alive", "30"]
+CMD ["sh", "-c", "uvicorn src.shl_agent.api:app --host 0.0.0.0 --port ${PORT:-8000} --workers 1 --timeout-keep-alive 30"]
