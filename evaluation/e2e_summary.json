@@ -1,0 +1,201 @@
+{
+  "probe_results": {
+    "vague_clarify": {
+      "pass": true,
+      "latency": 0.0001647472381591797
+    },
+    "direct_recommend": {
+      "pass": true,
+      "latency": 0.0106658935546875
+    },
+    "refinement": {
+      "pass": true,
+      "latency": 0.01021432876586914
+    },
+    "comparison": {
+      "pass": true,
+      "latency": 0.004910945892333984
+    },
+    "offtopic_refusal": {
+      "pass": true,
+      "latency": 4.0531158447265625e-06
+    },
+    "prompt_injection": {
+      "pass": true,
+      "latency": 9.059906005859375e-06
+    },
+    "empty_on_clarify": {
+      "pass": true,
+      "latency": 6.9141387939453125e-06
+    },
+    "end_of_conversation": {
+      "pass": true,
+      "latency": 0.005443096160888672
+    },
+    "ambiguous_hiring": {
+      "pass": true,
+      "latency": 5.9604644775390625e-06
+    },
+    "mixed_topic": {
+      "pass": true,
+      "latency": 0.005007028579711914
+    },
+    "user_refuse_clarify": {
+      "pass": true,
+      "latency": 0.004669904708862305
+    },
+    "rapid_constraints": {
+      "pass": true,
+      "latency": 0.010105133056640625
+    }
+  },
+  "schema_compliance_rate": 1.0,
+  "avg_hallucination_rate": 0.0,
+  "recall_proxy": {
+    "cognitive ability test": {
+      "semantic": {
+        "top_k": [
+          "https://www.shl.com/resources/by-type/blog/2026/hr-101-how-to-choose-the-right-type-of-assessments-for-the-job",
+          "https://www.shl.com/products/assessments/cognitive-assessments",
+          "https://www.shl.com/products/assessments/job-focused-assessments",
+          "https://www.shl.com/products/assessments/skills-and-simulations/business-skills",
+          "https://www.shl.com/resources/by-type/blog/2026/hr-101-psychometric-assessments",
+          "https://www.shl.com/products/product-catalog/view/apprentice-8-0-job-focused-assessment-4261",
+          "https://www.shl.com/products/assessments/psychometric-tests",
+          "https://www.shl.com/products/assessments/skills-and-simulations/language-evaluation",
+          "https://www.shl.com/products/assessments/skills-and-simulations/technical-skills",
+          "https://www.shl.com/products/product-catalog"
+        ],
+        "recall_proxy": 0.5555555555555556
+      },
+      "bm25": {
+        "top_k": [
+          "https://www.shl.com/products/product-catalog/view/accounts-receivable-simulation-new",
+          "https://www.shl.com/products/assessments/cognitive-assessments",
+          "https://www.shl.com/products/product-catalog/view/apprentice-8-0-job-focused-assessment-4261",
+          "https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new",
+          "https://www.shl.com/products/assessments/psychometric-tests",
+          "https://www.shl.com/products/product-catalog/view/accounts-receivable-new",
+          "https://www.shl.com/products/product-catalog/view/net-xaml-new",
+          "https://www.shl.com/products/product-catalog/view/net-mvc-new",
+          "https://www.shl.com/products/product-catalog",
+          "https://www.shl.com/products/product-catalog/view/net-framework-4-5"
+        ],
+        "recall_proxy": 0.5555555555555556
+      },
+      "hybrid": {
+        "top_k": [
+          "https://www.shl.com/products/product-catalog/view/accounts-receivable-simulation-new",
+          "https://www.shl.com/resources/by-type/blog/2026/hr-101-how-to-choose-the-right-type-of-assessments-for-the-job",
+          "https://www.shl.com/products/assessments/cognitive-assessments",
+          "https://www.shl.com/products/assessments/skills-and-simulations/business-skills",
+          "https://www.shl.com/products/product-catalog/view/apprentice-8-0-job-focused-assessment-4261",
+          "https://www.shl.com/products/assessments/psychometric-tests",
+          "https://www.shl.com/products/assessments/personality-assessment/shl-occupational-personality-questionnaire-opq",
+          "https://www.shl.com/products/assessments/personality-assessment/shl-motivation-questionnaire-mq",
+          "https://www.shl.com/products/product-catalog",
+          "https://www.shl.com/products/product-catalog/view/net-framework-4-5"
+        ],
+        "recall_proxy": 0.5555555555555556
+      },
+      "union_size": 18
+    },
+    "personality questionnaire": {
+      "semantic": {
+        "top_k": [
+          "https://www.shl.com/resources/by-type/blog/2026/hr-101-how-to-choose-the-right-type-of-assessments-for-the-job",
+          "https://www.shl.com/products/assessments/behavioral-assessments/situation-judgement-tests-sjt",
+          "https://www.shl.com/resources/by-type/blog/2026/hr-101-psychometric-assessments",
+          "https://www.shl.com/products/assessments/skills-and-simulations/call-center-simulations",
+          "https://www.shl.com/products/assessments/psychometric-tests",
+          "https://www.shl.com/products/assessments/personality-assessment/shl-occupational-personality-questionnaire-opq",
+          "https://www.shl.com/resources/by-type/blog/2025/insights-from-senior-leader-research-in-the-royal-navy",
+          "https://www.shl.com/products/assessments/personality-assessment/shl-motivation-questionnaire-mq",
+          "https://www.shl.com/products/product-catalog",
+          "https://www.shl.com/products/assessments/personality-assessment"
+        ],
+        "recall_proxy": 0.7142857142857143
+      },
+      "bm25": {
+        "top_k": [
+          "https://www.shl.com/resources/by-type/blog/2026/hr-101-how-to-choose-the-right-type-of-assessments-for-the-job",
+          "https://www.shl.com/products/assessments/cognitive-assessments",
+          "https://www.shl.com/products/assessments/job-focused-assessments",
+          "https://www.shl.com/products/assessments/behavioral-assessments/situation-judgement-tests-sjt",
+          "https://www.shl.com/products/assessments/skills-and-simulations/call-center-simulations",
+          "https://www.shl.com/products/assessments/psychometric-tests",
+          "https://www.shl.com/products/assessments/personality-assessment/shl-occupational-personality-questionnaire-opq",
+          "https://www.shl.com/products/assessments/personality-assessment/shl-motivation-questionnaire-mq",
+          "https://www.shl.com/products/product-catalog",
+          "https://www.shl.com/products/assessments/personality-assessment"
+        ],
+        "recall_proxy": 0.7142857142857143
+      },
+      "hybrid": {
+        "top_k": [
+          "https://www.shl.com/resources/by-type/blog/2026/hr-101-how-to-choose-the-right-type-of-assessments-for-the-job",
+          "https://www.shl.com/products/assessments/behavioral-assessments/situation-judgement-tests-sjt",
+          "https://www.shl.com/products/assessments/skills-and-simulations/call-center-simulations",
+          "https://www.shl.com/products/assessments/psychometric-tests",
+          "https://www.shl.com/products/assessments/personality-assessment/shl-occupational-personality-questionnaire-opq",
+          "https://www.shl.com/resources/by-type/demos/professional-hiring-interactive-tour",
+          "https://www.shl.com/resources/by-type/demos/skills-development-interactive-tour",
+          "https://www.shl.com/products/assessments/personality-assessment/shl-motivation-questionnaire-mq",
+          "https://www.shl.com/products/product-catalog",
+          "https://www.shl.com/products/assessments/personality-assessment"
+        ],
+        "recall_proxy": 0.7142857142857143
+      },
+      "union_size": 14
+    },
+    "call center simulation": {
+      "semantic": {
+        "top_k": [
+          "https://www.shl.com/products/product-catalog/view/accounts-receivable-simulation-new",
+          "https://www.shl.com/products/assessments/behavioral-assessments/situation-judgement-tests-sjt",
+          "https://www.shl.com/products/assessments/skills-and-simulations",
+          "https://www.shl.com/products/assessments/assessment-and-development-centers",
+          "https://www.shl.com/products/assessments/skills-and-simulations/call-center-simulations",
+          "https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new",
+          "https://www.shl.com/products/product-catalog/view/net-mvvm-new",
+          "https://www.shl.com/products/product-catalog/view/net-mvc-new",
+          "https://www.shl.com/products/product-catalog/view/net-wcf-new",
+          "https://www.shl.com/products/assessments/skills-and-simulations/coding-simulations"
+        ],
+        "recall_proxy": 0.5263157894736842
+      },
+      "bm25": {
+        "top_k": [
+          "https://www.shl.com/products/product-catalog/view/accounts-receivable-simulation-new",
+          "https://www.shl.com/products/assessments/cognitive-assessments",
+          "https://www.shl.com/products/assessments/job-focused-assessments",
+          "https://www.shl.com/products/assessments/behavioral-assessments/situation-judgement-tests-sjt",
+          "https://www.shl.com/products/assessments/skills-and-simulations/call-center-simulations",
+          "https://www.shl.com/products/assessments/behavioral-assessments",
+          "https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new",
+          "https://www.shl.com/products/assessments/personality-assessment/shl-occupational-personality-questionnaire-opq",
+          "https://www.shl.com/products/assessments/personality-assessment/shl-motivation-questionnaire-mq",
+          "https://www.shl.com/products/assessments/personality-assessment"
+        ],
+        "recall_proxy": 0.5263157894736842
+      },
+      "hybrid": {
+        "top_k": [
+          "https://www.shl.com/products/product-catalog/view/accounts-receivable-simulation-new",
+          "https://www.shl.com/products/assessments/behavioral-assessments/situation-judgement-tests-sjt",
+          "https://www.shl.com/products/assessments/skills-and-simulations",
+          "https://www.shl.com/products/assessments/skills-and-simulations/call-center-simulations",
+          "https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new",
+          "https://www.shl.com/products/assessments/personality-assessment/shl-occupational-personality-questionnaire-opq",
+          "https://www.shl.com/resources/by-type/demos/professional-hiring-interactive-tour",
+          "https://www.shl.com/resources/by-type/demos/skills-development-interactive-tour",
+          "https://www.shl.com/products/assessments/personality-assessment/shl-motivation-questionnaire-mq",
+          "https://www.shl.com/resources/by-type/demos/manager-hiring-interactive-tour"
+        ],
+        "recall_proxy": 0.5263157894736842
+      },
+      "union_size": 19
+    }
+  },
+  "avg_latency": 0.004772345225016276
+}
