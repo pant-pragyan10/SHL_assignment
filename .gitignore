@@ -11,3 +11,7 @@ build/
 data/
 .pytest_cache/
 .DS_Store
+
+# keep processed catalog committed for deployment
+!data/processed/
+!data/processed/catalog.json
