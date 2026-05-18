@@ -2,9 +2,12 @@ __pycache__/
 .venv/
 .pytest_cache/
 .git/
-data/
 !data/processed/
 !data/processed/catalog.json
+__pycache__/
+.venv/
+.pytest_cache/
+.git/
 *.pyc
 .DS_Store
 .env
