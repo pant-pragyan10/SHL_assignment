@@ -10,6 +10,9 @@ if [ -f ".env" ]; then
   set +a
 fi
 
+# ensure Python can import package from /app/src in container runtime
+export PYTHONPATH=/app/src
+
 # required env vars (GROQ optional)
 if [ -z "${PORT-}" ]; then
   export PORT=8000
